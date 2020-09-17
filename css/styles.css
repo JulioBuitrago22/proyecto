@@ -1,0 +1,372 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+
+header{
+	background: #000000;
+	color:#fff;
+}
+
+.navbar-inverse{
+
+	background-color: #fa96b5;
+	border-color: #fa96b5;
+
+}
+
+.Fondo{
+
+background: linear-gradient(darkblue, aqua );
+background-attachment: fixed;
+
+}
+
+
+/* .main{
+	background: #f2f2f2;
+} */
+
+/* .color1{
+	background: #34495e;
+	color:#fff;
+} */
+
+/* aside{
+	background: #c0392b;
+} */
+
+.Pie{
+	background: rgb(172, 158, 158);
+	color: #fff;
+	font-family: 'Times New Roman', Times, serif;
+} 
+
+
+
+.body{
+	background-image: url( ../img/Portada.jpg );
+	height: 100vh;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	animation: movimiento 20s infinite linear alternate;  
+}
+
+
+
+.body2{
+
+	background-image: url( ../img/Portada.jpg );
+	height: 100vh;
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+
+
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
+
+
+
+.navbar-inverse .navbar-brand {
+
+	color: #7e7e7e;
+	font-family: 'Amatic SC', cursive;
+
+}
+
+#Go{
+	/* background: linear-gradient(darkblue,aqua); */
+	color: red;
+}
+
+
+
+
+.panel-default > .panel-heading{
+	background-image: url(mad.jpg);
+}
+
+
+.panel-title{
+
+	font-size: 31px;
+	color: black;	
+}
+
+.Letras1{
+
+color: black;
+
+}
+
+.navbar-inverse .navbar-brand{
+
+
+	font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.navbar-brand a{
+	text-decoration: none;
+}
+
+.navbar-brand a:hover{
+	color:white;
+}
+
+a{
+
+	color: black;
+	text-decoration: none;
+
+}
+
+
+.navbar-brand a{
+	font-family: 'Dancing Script', cursive;
+	font-size: 19px;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a{
+	color: black;
+	font-family: 'Emilys Candy', cursive;
+	font-size: 22px;
+	font-style: italic;
+	
+}
+
+
+.Fan{
+
+	font-family: 'Emilys Candy', cursive;
+	font-style: italic;
+	text-align: center;
+
+}
+.TextFo{
+
+	text-align: justify;
+
+}
+
+
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.gallery .image{
+    width: 278px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0px;
+    border: 0px solid #3c78d8;
+}
+
+.gallery .image img{
+    width: 100%;
+}
+
+
+
+.Imagen22 img{
+
+	margin: 0px;
+	height: 299px;
+	width: 800px;
+	
+	max-width: 800px;
+	max-height: 300px;
+
+	padding: 6px;
+	margin-right: 0px;
+	border: 0px;
+	margin-left: 0px;
+
+}
+
+
+
+
+
+
+.btn-block{
+
+	display: block;
+	width: 100px;
+
+}
+
+
+.glyphicon glyphicon-play{
+
+
+	margin: 10px;
+
+
+}
+
+.Imagen31{
+
+	width: 1280px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 300px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+
+.Imagen11{
+
+	width: 1280px;
+	max-width: 100%;
+	height: 300px;
+	max-height: 312px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+
+
+
+.Imagen29{
+
+	width: 600px;
+	max-width: 600px;
+	height: 300px;
+	max-height: 300px;
+
+
+}
+
+
+.btn-default{
+
+	font-family: 'Emilys Candy', cursive;
+
+}   
+
+
+.Fond22{
+
+	max-width: 589px ;
+	width: 589px;
+	max-height: 300px;
+	height: 300px;
+
+}
+
+
+.Fond31{
+
+
+	width: 589px;
+	max-height: 230px;
+	height: 300px;
+
+	margin-right: -15px;
+	margin-left: -15px;
+	width: 100%;
+	position: relative;
+	
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+
+.Fond29{
+
+	width: 589px;
+	max-height: 230px;
+	height: 300px;
+
+
+	width: 100%;
+	position: relative;
+	
+	padding-right: 0px;
+	padding-left: 0px;
+	margin: 2%;
+	margin-right: 5%;
+	max-width: 83%;
+}
+
+
+#mishs{
+
+	margin-top: 50px;
+
+}
+
+
+h5{
+	color: #fff;
+	margin-top: 20px;
+	margin-bottom: -61px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(255, 21, 21, 0.6);
+	text-decoration: none;
+	font-size: 25px;
+}
+
+h6{
+	color: black;
+	margin-top: 20px;
+	margin-bottom: -61px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(255, 21, 21, 0.6);
+	text-decoration: none;
+	font-size: 25px;
+}
+
+h4{
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 142px;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(255, 21, 21, 0.6);
+	text-decoration: none;
+	font-size: 25px;
+}
+
+
+.UBICA-MAP{
+
+	background-color:  rgba(194, 192, 192, 0.452);
+	margin-bottom: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+	font-size: 30px;
+	width: 59.3%;
+	margin-left: 20.4%;
+	margin-right: 103%;
+	
+
+}
