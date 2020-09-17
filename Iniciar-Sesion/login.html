@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet" href="assets/css/Sesion.css">
+
+    <link rel="icon" href="../img/Fant.ico">
+
+    
+
+</head>
+<body>
+    <header class="Fondo">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<div class="navbar-brand">
+						<a href="../index.html"><span class="glyphicon glyphicon-fire" id="Go"></span>Fantastic Events</a></div>
+					</div>
+					
+
+				<div class="collapse navbar-collapse" id="navbar1">
+					
+					<ul class="nav navbar-nav">
+						
+						<li><a href="../Eventos.html">Eventos</a></li>
+
+						<li class="dropdown">
+
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Promociones<span class="caret"></span></a>
+							
+							<ul class="dropdown-menu">
+								<li class="dropdown-header"><center>Categorias</center></li>
+								<li><a href="../Sociales.html"><center>Sociales</center></a></li>
+								<li><a href="../Academicas.html"><center>Academicas</center></a></li>
+								<li><a href="../Empresariales.html"><center>Empresariales</center></a></li>
+							</ul>
+						</li>
+
+						
+                        <li><a href="../Contactos.html">Contacto</a></li>
+                        <li><a href="../Mapa/Mapa.html">Establecimientos</a></li>
+
+					</ul>
+
+
+					
+				</div>
+			</div>
+		</nav>
+	</header>
+
+
+
+    <main>
+
+        <div class="contenedor__todo">
+            <div class="caja__trasera">
+                <div class="caja__trasera-login">
+                    <h3>¿Ya tienes una cuenta?</h3>
+                    <p>Inicia sesión para entrar en la página</p>
+                    <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                </div>
+                <div class="caja__trasera-register">
+                    <h3>¿Aún no tienes una cuenta?</h3>
+                    <p>Regístrate para que puedas iniciar Sesión</p>
+                    <button id="btn__registrarse">Regístrase</button>
+                </div>
+            </div>
+            <!-- Formulario de login y Registro -->
+            <div class="contenedor__login-register">
+
+                <!--Login -->
+
+                <form action="" class="formulario__login">
+
+                    <h2>Iniciar Sesión</h2>
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="password" placeholder="Contraseña">
+                    <button><a href="../Fantastic.html">Entrar</a></button>
+
+                </form>
+
+                <!--Registro -->
+
+                <form action=""method="POST" class="formulario__register">
+                    <h2>Regístrarse</h2>
+                    <input type="text" placeholder="Nombre Completo" name="nombre_completo">
+                    <input type="text" placeholder="Correo Electronico" name="correo">
+                    <input type="text" placeholder="Usuario" name="usuario">
+                    <input type="password" placeholder="Contraseña" name="contrasena">
+                    <button>Regístrarse</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </main>
+        
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
